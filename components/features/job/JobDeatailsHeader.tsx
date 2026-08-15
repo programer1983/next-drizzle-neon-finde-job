@@ -86,8 +86,6 @@ interface JobDetailHeaderProps {
 export default async function JobDeatailsHeader({ job }: JobDetailHeaderProps) {
   const { userId } = await auth();
 
-  if (!userId) return null;
-
   const hasValidUrl =
     job?.applicationUrl &&
     (job.applicationUrl.startsWith("http://") ||
