@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import UserJobList from "@/components/features/dashboard/UserJobList";
 import Container from "@/components/ui/Container";
 

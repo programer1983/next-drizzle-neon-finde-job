@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { getJobs } from "@/actions/jobActions";
 import Hero from "@/components/features/homepage/Hero";
 import JobFeed from "@/components/features/homepage/JobFeed";

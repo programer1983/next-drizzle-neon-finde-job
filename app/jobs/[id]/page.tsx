@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import { getSingleJob } from "@/actions/jobActions";
 import JobDeatailsHeader from "@/components/features/job/JobDeatailsHeader";
 import JobDescription from "@/components/features/job/JobDescription";
