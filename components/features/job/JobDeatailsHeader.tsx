@@ -93,7 +93,7 @@ export default async function JobDeatailsHeader({ job }: JobDetailHeaderProps) {
 
   return (
     <div className="border-b bg-muted/30 py-12 px-3">
-      <div className="flex justify-between items-start">
+      <div className="flex flex-col gap-y-8  md:flex-row md:justify-between items-start">
         <div className="space-y-4">
           <div>
             <h1 className="mb-2 text-4xl lg:text-5xl font-bold">
